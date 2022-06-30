@@ -64,8 +64,8 @@ nav ul li a:focus{
     background-color: var(--primary-color);
     color: black;
 
-    opacity: 0.2px;
-    border-radius: 50px;
+    opacity: -10px;
+    border-radius: 30px;
 }
 nav ul li a:focus::before{
     width: 0%;
@@ -219,10 +219,76 @@ p {
         padding: 2px 0px;
     
     }
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(255 255 255);
+        font-size: 7px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+
+}
+@media (max-width: 600px) {
+.inputText{
+    display: none;
+}
+.search-btn {
+    display: none;
+
+}
+.logo img {
+    width: 131px;
+    height: 36px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 16px;
+}
+dl, ol, ul {
+    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+
 
 
 }
-@media (max-width: 665px) {
+@media (max-width: 600px) {
+    .header {
+        background-color: black;
+        height: 100px;
+        width: 125%;
+        position:sticky;
+    } 
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(255 255 255);
+        font-size: 10px;
+    }
+    .logo img {
+        width: 100px;
+        height: 33px;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    .container {
+        margin: auto;
+        width: 120%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* margin-right: 40px; */
+    }
+    
+
+}
+
+/* @media (max-width: 665px) {
     .logo img {
         width: 97px;
         height: 34px;
@@ -235,8 +301,8 @@ p {
         cursor: pointer;
     }
 
-}
-@media (max-width: 525px) {
+} */
+/* @media (max-width: 525px) {
     .logo img {
         width: 59px;
         height: 22px;
@@ -254,10 +320,10 @@ p {
     .inputText {
         padding: 2px 0px;
     
-    }
-    .header {
+    } */
+    /* .header { */
         /* background-color: var(--secondary-color); */
-        background-color: black;
+        /* background-color: black;
         height: 100px;
         width: 125%;
 
@@ -269,16 +335,8 @@ nav ul li a {
     font-size: 10px;
     cursor: pointer;
 }
-}
-@media (max-width: 525px) {
-.header {
-    /* background-color: var(--secondary-color); */
-    background-color: black;
-    height: 100px;
-    width: 164%;
+} */
 
-}
-}
 /* ------------------------------ */
 /* .watch{
     display: flex;
