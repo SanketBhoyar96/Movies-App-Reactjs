@@ -191,6 +191,17 @@ p {
     }
 
 }
+@media (max-width: 806px){
+nav ul li a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    padding: .2rem .6rem;
+    position: relative;
+    text-decoration: none;
+}
+}
 @media (max-width:800px){
     nav ul li a {
         color: #fff;
